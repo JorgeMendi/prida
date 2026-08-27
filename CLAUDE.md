@@ -32,8 +32,10 @@ Ver detalle completo en [contexto/contexto-inicial-proyecto.md](contexto/context
 
 ## Stack técnico
 - **Next.js** (App Router, TypeScript) + **Tailwind CSS**.
-- Deploy en **Vercel**, cuenta asociada al email `ganamosdinero1`, conectada al repo de GitHub bajo la cuenta `JorgeMendi` (alias SSH `github-jorgemendi`). Cada push a `main` dispara deploy a producción; otras ramas/PRs generan preview deploys.
+- Repo en GitHub: `JorgeMendi/prida` (cuenta personal `JorgeMendi`, alias SSH local `github-jorgemendi`).
+- Deploy en **Vercel**, team `jorgemendizabal-6450...` (plan Hobby) — cuenta de Vercel ya conectada nativamente a la cuenta de GitHub `JorgeMendi`, así que el import fue directo sin fricción de permisos cruzados. (Se evaluó usar la cuenta de Vercel asociada al email `ganamosdinero1`, pero esa cuenta está conectada a una identidad de GitHub distinta y separada de `JorgeMendi`, y Vercel no permite mezclar dos cuentas personales de GitHub bajo una misma cuenta de Vercel — se descartó esa ruta.)
+- Cada push a `main` dispara deploy a producción; otras ramas/PRs generan preview deploys.
 - Pendiente de confirmar: si hay un dominio propio ya registrado (posiblemente vía Squarespace Domains) para apuntar al proyecto de Vercel, o si el dominio final aún no está definido.
 
 ## Estado actual
-Fase de diseño/desarrollo inicial: scaffold del proyecto creado, primer deploy en Vercel en curso como preview para que el cliente vea avances antes de Fruit Attraction 2026. Este documento se irá actualizando a medida que se tomen más decisiones.
+Primer deploy en Vercel hecho: **https://prida-ten.vercel.app/** — landing placeholder ("Prida — Próximamente") en vivo como referencia inicial para que el cliente vea avances antes de Fruit Attraction 2026. Falta: diseño real de contenido/UI, exportar el logo a SVG/PNG, y definir dominio final. Este documento se irá actualizando a medida que se tomen más decisiones.
