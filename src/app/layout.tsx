@@ -15,6 +15,7 @@ const publicSans = Public_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://prida-ten.vercel.app"),
   title: "Prida — Frutas Asépticas y Liofilizadas para la industria",
   description:
     "Prida suministra pulpa de fruta aséptica y fruta liofilizada y atomizada a la industria europea de jugos, cervecería, compotas y helados.",
