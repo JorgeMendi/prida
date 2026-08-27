@@ -44,5 +44,7 @@ Las 3 fotos de hero del mockup original venían sin metadata/origen conocido (un
 
 Placeholders pendientes de datos reales (heredados del mockup, no completar sin confirmar con el cliente): email/teléfono/dirección de contacto, stand de Fruit Attraction 2026, y formatos comerciales de la línea liofilizada (a confirmar con Biovks). El formulario de contacto todavía no tiene backend conectado (sin envío real de email/CRM).
 
+Favicon (`src/app/icon.png` + `apple-icon.png`) e imagen de preview para compartir el link (`src/app/opengraph-image.png`, la que muestran WhatsApp/Facebook/etc.) ya están generados a partir del logo. **Pendiente:** `metadataBase` en `src/app/layout.tsx` está hardcodeado a `https://prida-ten.vercel.app` — actualizarlo cuando se defina el dominio final, si no las imágenes de preview van a apuntar a la URL vieja.
+
 ## Estado actual
 Sitio real construido en Next.js con las 5 páginas del mockup, deployado en **https://prida-ten.vercel.app/**. Falta: completar los placeholders de contacto/formatos con datos reales, decidir servicio de envío del formulario de contacto, y definir dominio final. Este documento se irá actualizando a medida que se tomen más decisiones.
