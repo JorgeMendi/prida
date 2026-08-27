@@ -1,26 +1,52 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-prida-red: #ED1D24;
+  --color-prida-red-dark: #C21118;
+  --color-prida-navy: #262363;
+  --color-prida-navy-light: #2E3D8E;
+  --color-prida-orange: #E8862A;
+  --color-prida-orange-soft: #FDF1E4;
+  --color-prida-paper: #FFFFFF;
+  --color-prida-paper-2: #F7F6F3;
+  --color-prida-footer: #F1EFE9;
+  --color-prida-ink: #1C1B2E;
+  --color-prida-ink-soft: #565A72;
+  --color-prida-line: #E6E4DE;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-prida-red: var(--color-prida-red);
+  --color-prida-red-dark: var(--color-prida-red-dark);
+  --color-prida-navy: var(--color-prida-navy);
+  --color-prida-navy-light: var(--color-prida-navy-light);
+  --color-prida-orange: var(--color-prida-orange);
+  --color-prida-orange-soft: var(--color-prida-orange-soft);
+  --color-prida-paper: var(--color-prida-paper);
+  --color-prida-paper-2: var(--color-prida-paper-2);
+  --color-prida-footer: var(--color-prida-footer);
+  --color-prida-ink: var(--color-prida-ink);
+  --color-prida-ink-soft: var(--color-prida-ink-soft);
+  --color-prida-line: var(--color-prida-line);
+  --font-heading: var(--font-manrope);
+  --font-body: var(--font-public-sans);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-prida-paper);
+  color: var(--color-prida-ink);
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading), system-ui, sans-serif;
+  letter-spacing: -0.01em;
+}
+
+.eyebrow {
+  font-family: var(--font-heading), system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 12.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
 }
