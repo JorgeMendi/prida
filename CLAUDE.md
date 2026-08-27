@@ -37,5 +37,10 @@ Ver detalle completo en [contexto/contexto-inicial-proyecto.md](contexto/context
 - Cada push a `main` dispara deploy a producción; otras ramas/PRs generan preview deploys.
 - Pendiente de confirmar: si hay un dominio propio ya registrado (posiblemente vía Squarespace Domains) para apuntar al proyecto de Vercel, o si el dominio final aún no está definido.
 
+## Diseño
+Existe un mockup completo (design canvas "Prida Europa — Propuesta Web", publicado como Artifact) con las 5 páginas del sitio: Home, Frutas Asépticas, Frutas Liofilizadas y Atomizadas, Quiénes somos y Contacto. Ese mockup es la fuente de verdad de copy/layout/paleta de colores (rojo `#ED1D24`, navy `#262363`, naranja `#E8862A`) y tipografías (Manrope + Public Sans, Google Fonts) — ya implementado en el sitio real. También incluye el logo exportado a PNG y 3 fotos de hero (maracuyá, papaya, fresas liofilizadas), copiados a `public/images/`.
+
+Placeholders pendientes de datos reales (heredados del mockup, no completar sin confirmar con el cliente): email/teléfono/dirección de contacto, stand de Fruit Attraction 2026, y formatos comerciales de la línea liofilizada (a confirmar con Biovks). El formulario de contacto todavía no tiene backend conectado (sin envío real de email/CRM).
+
 ## Estado actual
-Primer deploy en Vercel hecho: **https://prida-ten.vercel.app/** — landing placeholder ("Prida — Próximamente") en vivo como referencia inicial para que el cliente vea avances antes de Fruit Attraction 2026. Falta: diseño real de contenido/UI, exportar el logo a SVG/PNG, y definir dominio final. Este documento se irá actualizando a medida que se tomen más decisiones.
+Sitio real construido en Next.js con las 5 páginas del mockup, deployado en **https://prida-ten.vercel.app/**. Falta: completar los placeholders de contacto/formatos con datos reales, decidir servicio de envío del formulario de contacto, y definir dominio final. Este documento se irá actualizando a medida que se tomen más decisiones.
