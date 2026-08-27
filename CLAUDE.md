@@ -38,7 +38,9 @@ Ver detalle completo en [contexto/contexto-inicial-proyecto.md](contexto/context
 - Pendiente de confirmar: si hay un dominio propio ya registrado (posiblemente vía Squarespace Domains) para apuntar al proyecto de Vercel, o si el dominio final aún no está definido.
 
 ## Diseño
-Existe un mockup completo (design canvas "Prida Europa — Propuesta Web", publicado como Artifact) con las 5 páginas del sitio: Home, Frutas Asépticas, Frutas Liofilizadas y Atomizadas, Quiénes somos y Contacto. Ese mockup es la fuente de verdad de copy/layout/paleta de colores (rojo `#ED1D24`, navy `#262363`, naranja `#E8862A`) y tipografías (Manrope + Public Sans, Google Fonts) — ya implementado en el sitio real. También incluye el logo exportado a PNG y 3 fotos de hero (maracuyá, papaya, fresas liofilizadas), copiados a `public/images/`.
+Existe un mockup completo (design canvas "Prida Europa — Propuesta Web", publicado como Artifact) con las 5 páginas del sitio: Home, Frutas Asépticas, Frutas Liofilizadas y Atomizadas, Quiénes somos y Contacto. Ese mockup es la fuente de verdad de copy/layout/paleta de colores (rojo `#ED1D24`, navy `#262363`, naranja `#E8862A`) y tipografías (Manrope + Public Sans, Google Fonts) — ya implementado en el sitio real. También incluye el logo, exportado a PNG y copiado a `public/images/logo-prida.png`.
+
+Las 3 fotos de hero del mockup original venían sin metadata/origen conocido (una se veía directamente como fruta podrida) — se reemplazaron por fotos de Wikimedia Commons con licencia verificada, mismo criterio temático (maracuyá en home, papaya en Asépticas, fresas liofilizadas en Liofilizadas). Ver [contexto/creditos-fotos.md](contexto/creditos-fotos.md) para créditos/licencias — son placeholders, a reemplazar por fotografía real del cliente o los partners antes de producción.
 
 Placeholders pendientes de datos reales (heredados del mockup, no completar sin confirmar con el cliente): email/teléfono/dirección de contacto, stand de Fruit Attraction 2026, y formatos comerciales de la línea liofilizada (a confirmar con Biovks). El formulario de contacto todavía no tiene backend conectado (sin envío real de email/CRM).
 
