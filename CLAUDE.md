@@ -32,7 +32,7 @@ Ver detalle completo en [contexto/contexto-inicial-proyecto.md](contexto/context
 
 ## Stack técnico
 - **Next.js** (App Router, TypeScript) + **Tailwind CSS**.
-- Repo en GitHub: `JorgeMendi/prida` (cuenta personal `JorgeMendi`, alias SSH local `github-jorgemendi`).
+- Repo en GitHub: `JorgeMendi/prida` (cuenta personal `JorgeMendi`; identidad git `jorgemendi` según la metodología de `~/code/_setup`).
 - Deploy en **Vercel**, team `jorgemendizabal-6450...` (plan Hobby) — cuenta de Vercel ya conectada nativamente a la cuenta de GitHub `JorgeMendi`, así que el import fue directo sin fricción de permisos cruzados. (Se evaluó usar la cuenta de Vercel asociada al email `ganamosdinero1`, pero esa cuenta está conectada a una identidad de GitHub distinta y separada de `JorgeMendi`, y Vercel no permite mezclar dos cuentas personales de GitHub bajo una misma cuenta de Vercel — se descartó esa ruta.)
 - Cada push a `main` dispara deploy a producción; otras ramas/PRs generan preview deploys.
 - Pendiente de confirmar: si hay un dominio propio ya registrado (posiblemente vía Squarespace Domains) para apuntar al proyecto de Vercel, o si el dominio final aún no está definido.
